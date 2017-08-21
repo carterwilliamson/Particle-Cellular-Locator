@@ -1,6 +1,6 @@
 #!/bin/bash
 
-particle compile electron ./src ./lib/google-maps-device-locator/src project.properties --saveTo firmware.bin
+particle compile electron ./src project.properties --saveTo firmware.bin
 if [[ $? -ne 0 ]]; then
   echo "Failed to compile, exiting."
   exit 1;
