@@ -9,6 +9,6 @@
     "key":"API_KEY"
   },
   "requestType": "POST",
-  "body" : "{\"cellTowers\":[{{#towers}}{\"cellId\":{{id}},\"locationAreaCode\":{{lac}},\"mobileCountryCode\":{{mcc}},\"mobileNetworkCode\":{{mnc}} }{{/towers}}]}",
+  "body" : "{\"cellTowers\":[{{#c.a}}{\"cellId\":{{i}},\"locationAreaCode\":{{l}},\"mobileCountryCode\":{{c}},\"mobileNetworkCode\":{{n}} }{{/c.a}}]}",
   "noDefaults":"true"
 }
